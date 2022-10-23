@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<title>搜索</title>
+</head>
+<body>
+<!-- <body bgcolor="pink"> -->
+<fieldset>
+<label for="search"> <strong>好看的皮囊千篇一律，有趣的视频万里无一，WILIWILI搜索，为你找寻万里无一的灵魂！</strong></label><br>
+<input type="text" id="textId" value="" placeholder="请输入你感兴趣的问题" style="width: 200px;"/>
+<input type="button" value="搜索" onclick="goto()" style="font-size:14px;"/>
+<script>
+function goto() {
+    var str = document.getElementById("textId").value;
+    window.open(str+".html");
+}
+</script>
+<br />
+<iframe src="WILIWILI.html" name="iframe" width="890" height="800"></iframe><br>
+</fieldset>
+</body>
+</html>
